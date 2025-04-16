@@ -1,0 +1,164 @@
+/* === Base Reset === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* === Header === */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#user-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#user-panel button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#user-panel button:hover {
+  background: #2980b9;
+}
+
+/* === Post Form === */
+#post-form-section {
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#post-form textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  background: #2a2a2a;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.post-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+#visibility {
+  background: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+#post-form button {
+  background: #4caf50;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#post-form button:hover {
+  background: #388e3c;
+}
+
+/* === Friend List === */
+#friend-section {
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#friend-list {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#friend-list li {
+  background: #2a2a2a;
+  padding: 6px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#add-friend-input {
+  width: 60%;
+  padding: 6px;
+  background: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+#add-friend-btn {
+  padding: 6px 10px;
+  background: #8e44ad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#add-friend-btn:hover {
+  background: #732d91;
+}
+
+/* === Feed === */
+#feed-section {
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.post {
+  background: #2a2a2a;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.post .meta {
+  font-size: 0.85em;
+  color: #aaa;
+  margin-bottom: 5px;
+}
